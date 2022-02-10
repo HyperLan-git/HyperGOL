@@ -9,6 +9,7 @@ import java.awt.Graphics;
 import javax.swing.JPanel;
 
 public class Renderer extends JPanel {
+	private static final long serialVersionUID = 2210981533584680095L;
 	private World world;
 
 	public Renderer(World world) {
